@@ -1,0 +1,7 @@
+{
+  "name": "debercompras",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

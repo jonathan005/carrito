@@ -1,0 +1,15 @@
+<ion-header mode="ios">
+  <ion-toolbar mode="ios" color="primary">
+    <ion-title color="light" align="center" >
+      BIENVENIDO
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen>
+  <ion-card *ngFor="let item of categorias" color="secondary" button="true" [routerLink]="['/listaproductos']">
+    <img src="./assets/{{item.nombre}}.jpg" />
+    <ion-card-header>
+      <ion-card-title>{{item.nombre}}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+</ion-content>

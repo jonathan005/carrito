@@ -1,0 +1,14 @@
+ion-toolbar{
+    --background: url('/assets/tec.jpg') no-repeat center/cover fixed;
+}
+ion-content {
+    --background: url('/assets/tec.jpg') no-repeat center/cover fixed;
+  }
+ion-item {
+    --background: none;
+    opacity:1;
+  }
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}
